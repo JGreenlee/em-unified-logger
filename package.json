@@ -1,15 +1,8 @@
 {
-  "name": "cordova-plugin-em-unifiedlogger",
+  "name": "em-unified-logger",
   "version": "1.3.6",
   "description": "Simple package that stores all the connection settings that need to be configured",
   "license": "BSD-3-clause",
-  "cordova": {
-    "id": "cordova-plugin-em-unifiedlogger",
-    "platforms": [
-      "android",
-      "ios"
-    ]
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/e-mission/cordova-unified-logger.git"
@@ -21,24 +14,6 @@
     "ecosystem:cordova",
     "cordova-ios",
     "cordova-android"
-  ],
-  "engines": [
-    {
-      "name": "cordova",
-      "version": ">=3.6.0"
-    },
-    {
-      "name": "cordova-android",
-      "version": ">=7.0.0"
-    },
-    {
-      "name": "android-sdk",
-      "version": ">=26"
-    },
-    {
-      "name": "apple-ios",
-      "version": ">=10.0.0"
-    }
   ],
   "author": "K. Shankari",
   "bugs": {
